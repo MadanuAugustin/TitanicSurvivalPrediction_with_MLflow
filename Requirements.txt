@@ -1,0 +1,17 @@
+
+
+pandas
+mlflow == 2.10.0
+notebook
+numpy
+matplotlib
+python-box == 6.0.2
+pyYAML
+tqdm
+ensure == 1.0.2
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+pathlib
+-e .    ##-e . triggers the setup.py
