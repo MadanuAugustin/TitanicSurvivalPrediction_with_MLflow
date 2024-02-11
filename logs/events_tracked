@@ -157,3 +157,230 @@ Source-Age: 0
 [2024-02-11 22:06:14,472 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
 [2024-02-11 22:06:14,472 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
 [2024-02-11 22:06:14,472 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 23:30:08,045 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 23:30:08,045 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 23:30:08,048 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:30:08,049 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:30:08,051 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:30:08,051 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:30:08,051 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-11 23:30:08,051 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 23:30:08,052 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-11 23:30:08,052 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-11 23:30:08,052 : INFO : data_ingestion : file already exists of size : The size of the file : artifacts\data_ingestion\Raw_data.zip is 22KB]
+[2024-02-11 23:30:08,052 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-11 23:30:08,052 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-11 23:30:08,056 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-11 23:30:08,056 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-11 23:30:08,056 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 23:30:08,056 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-11 23:30:08,057 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-11 23:30:08,058 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:30:08,058 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:30:08,060 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:30:08,060 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:30:08,060 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-11 23:30:08,061 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-11 23:30:08,061 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-11 23:30:08,061 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,073 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,074 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,074 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,075 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,075 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,076 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,076 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,077 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,077 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,078 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,079 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,079 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:30:08,079 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-11 23:30:08,079 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-11 23:31:59,978 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 23:31:59,979 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 23:31:59,980 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:31:59,980 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:31:59,982 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:31:59,982 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:31:59,982 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-11 23:31:59,983 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 23:31:59,983 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-11 23:31:59,983 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-11 23:32:01,596 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CFC2:7235:C262B8:EC4C97:65C90B98
+Accept-Ranges: bytes
+Date: Sun, 11 Feb 2024 18:02:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10242-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707674522.975931,VS0,VE291
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0e395c96fbe175cb7b036648559569785437191b
+Expires: Sun, 11 Feb 2024 18:07:02 GMT
+Source-Age: 0
+
+]
+[2024-02-11 23:32:01,596 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-11 23:32:01,599 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-11 23:32:01,609 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-11 23:32:01,609 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-11 23:32:01,610 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 23:32:01,610 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-11 23:32:01,610 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-11 23:32:01,611 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:32:01,611 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:32:01,614 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:32:01,614 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:32:01,614 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-11 23:32:01,615 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-11 23:32:01,615 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-11 23:32:01,615 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,626 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,627 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,628 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,630 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,631 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,631 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,632 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,632 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,633 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,634 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,634 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,635 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:32:01,635 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-11 23:32:01,636 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-11 23:33:57,866 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 23:33:57,867 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 23:33:57,868 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:33:57,869 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:33:57,870 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:33:57,870 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:33:57,870 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-11 23:33:57,871 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 23:33:57,871 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-11 23:33:57,871 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-11 23:33:57,871 : INFO : data_ingestion : file already exists of size : The size of the file : artifacts\data_ingestion\Raw_data.zip is 22KB]
+[2024-02-11 23:33:57,871 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-11 23:33:57,871 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-11 23:33:57,873 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-11 23:33:57,874 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-11 23:33:57,874 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 23:33:57,874 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-11 23:33:57,874 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-11 23:33:57,875 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:33:57,876 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:33:57,877 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:33:57,877 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:33:57,878 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-11 23:33:57,878 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-11 23:33:57,878 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-11 23:33:57,878 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,890 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,891 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,891 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,892 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,892 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,893 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,893 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,894 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,894 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,895 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,895 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:33:57,896 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-11 23:33:57,896 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-11 23:34:43,708 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 23:34:43,709 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 23:34:43,710 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:34:43,711 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:34:43,712 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:34:43,713 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:34:43,713 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-11 23:34:43,713 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 23:34:43,713 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-11 23:34:43,713 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-11 23:34:44,819 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CFC2:7235:C262B8:EC4C97:65C90B98
+Accept-Ranges: bytes
+Date: Sun, 11 Feb 2024 18:04:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10223-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1707674686.589897,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f6eceb239e47c87e21b4dec92efbbc132b1700e9
+Expires: Sun, 11 Feb 2024 18:09:45 GMT
+Source-Age: 163
+
+]
+[2024-02-11 23:34:44,820 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-11 23:34:44,823 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-11 23:34:44,832 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-11 23:34:44,832 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-11 23:34:44,832 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 23:34:44,833 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-11 23:34:44,833 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-11 23:34:44,834 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:34:44,835 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:34:44,836 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:34:44,837 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:34:44,837 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-11 23:34:44,838 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-11 23:34:44,838 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-11 23:34:44,838 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:34:44,856 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-11 23:34:44,856 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-11 23:34:55,262 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 23:34:55,262 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 23:34:55,266 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:34:55,267 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:34:55,268 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:34:55,269 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:34:55,269 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-11 23:34:55,270 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 23:34:55,270 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-11 23:34:55,270 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-11 23:34:55,271 : INFO : data_ingestion : file already exists of size : The size of the file : artifacts\data_ingestion\Raw_data.zip is 22KB]
+[2024-02-11 23:34:55,271 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-11 23:34:55,271 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-11 23:34:55,274 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-11 23:34:55,274 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-11 23:34:55,275 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 23:34:55,275 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-11 23:34:55,275 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-11 23:34:55,277 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 23:34:55,277 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 23:34:55,279 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 23:34:55,279 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 23:34:55,279 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-11 23:34:55,280 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-11 23:34:55,280 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-11 23:34:55,280 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-11 23:34:55,302 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-11 23:34:55,303 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
