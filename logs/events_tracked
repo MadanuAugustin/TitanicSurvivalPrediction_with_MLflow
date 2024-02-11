@@ -1,0 +1,159 @@
+[2024-02-11 21:05:55,924 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 21:05:55,930 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 21:05:55,931 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 21:12:59,873 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 21:12:59,874 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 21:12:59,875 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 21:15:28,032 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 21:15:28,034 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 21:15:28,035 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 21:15:28,036 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 21:15:28,036 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 21:15:28,036 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 21:15:29,739 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AED2:3DE2:62A0CF:75E4CF:65C8EB99
+Accept-Ranges: bytes
+Date: Sun, 11 Feb 2024 15:45:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1707666330.135121,VS0,VE294
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 77b170de7e709f0c13418517bb4605890d0ed3fb
+Expires: Sun, 11 Feb 2024 15:50:30 GMT
+Source-Age: 0
+
+]
+[2024-02-11 21:15:29,750 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 21:16:34,446 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 21:16:34,448 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 21:16:34,448 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 21:16:34,449 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 21:16:34,449 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 21:16:34,450 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 21:16:35,776 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AED2:3DE2:62A0CF:75E4CF:65C8EB99
+Accept-Ranges: bytes
+Date: Sun, 11 Feb 2024 15:46:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10226-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1707666397.559647,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 383c852fd1ad1cdb4a3e35c4f5c56da90010c7c8
+Expires: Sun, 11 Feb 2024 15:51:36 GMT
+Source-Age: 66
+
+]
+[2024-02-11 21:16:35,784 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 21:50:20,902 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 21:50:20,903 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 21:50:20,904 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 21:50:20,904 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 21:50:20,904 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 21:50:20,905 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 21:50:20,905 : INFO : data_ingestion : file already exists of size : The size of the file : artifacts\data_ingestion\Raw_data.zip is 22KB]
+[2024-02-11 21:50:20,907 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 21:57:40,646 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 21:57:40,646 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 21:57:40,647 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 21:57:40,648 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 21:57:40,648 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 21:57:40,649 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 21:57:40,649 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 21:57:42,388 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AED2:3DE2:62A0CF:75E4CF:65C8EB99
+Accept-Ranges: bytes
+Date: Sun, 11 Feb 2024 16:27:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10232-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1707668863.783706,VS0,VE259
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5f47352fa557cf7c959de053f36263afba16a511
+Expires: Sun, 11 Feb 2024 16:32:43 GMT
+Source-Age: 0
+
+]
+[2024-02-11 21:57:42,398 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-11 22:06:12,659 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-11 22:06:12,659 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-11 22:06:12,661 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-11 22:06:12,661 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-11 22:06:12,662 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-11 22:06:12,662 : INFO : common : created directory at : artifacts...!]
+[2024-02-11 22:06:12,662 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-11 22:06:12,662 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-11 22:06:12,663 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-11 22:06:12,663 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-11 22:06:14,458 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AED2:3DE2:62A0CF:75E4CF:65C8EB99
+Accept-Ranges: bytes
+Date: Sun, 11 Feb 2024 16:36:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10229-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1707669375.721720,VS0,VE264
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 05f7281fa6d12cb85413df7b1ea63e7e1faa458d
+Expires: Sun, 11 Feb 2024 16:41:14 GMT
+Source-Age: 0
+
+]
+[2024-02-11 22:06:14,458 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-11 22:06:14,461 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-11 22:06:14,472 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-11 22:06:14,472 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-11 22:06:14,472 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]

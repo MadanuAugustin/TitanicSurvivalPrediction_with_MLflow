@@ -1,0 +1,15 @@
+
+# root folder
+artifacts_root : artifacts
+
+
+#data_ingestion_stage
+
+data_ingestion:
+  # creating data_ingestion folder inside artifacts
+  root_dir : artifacts//data_ingestion
+  # The below link is where the raw-data is stored
+  source_URL : 'https://github.com/MadanuAugustin/TitanicSurvivalPrediction_with_MLflow/raw/main/Raw_data/archive.zip'
+  local_data_file : artifacts//data_ingestion//Raw_data.zip
+  unzip_dir : artifacts//data_ingestion
+

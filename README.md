@@ -9,7 +9,7 @@
 3. update params.yaml
 <!-- params consists of all the model parameter like alpha value incase of elastic net
 instead of chaning the parameters in run time we change in param.yaml file -->
-4. update the entity
+4. update the config_entity
 <!-- entity file consists information of return type of the functions -->
 5. update the configuration manager in src config
 6. update the components
