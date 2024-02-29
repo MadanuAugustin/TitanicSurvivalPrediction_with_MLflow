@@ -384,3 +384,298 @@ Source-Age: 163
 [2024-02-11 23:34:55,280 : INFO : data_validation : DataValidation validate_all_columns function started...!]
 [2024-02-11 23:34:55,302 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
 [2024-02-11 23:34:55,303 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-29 09:41:48,153 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-29 09:41:48,154 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-29 09:41:48,157 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 09:41:48,161 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 09:41:48,167 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 09:41:48,169 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 09:41:48,169 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-29 09:41:48,170 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-29 09:41:48,170 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-29 09:41:48,170 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-29 09:41:49,841 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9B10:1DD556:5B669D:775848:65E00405
+Accept-Ranges: bytes
+Date: Thu, 29 Feb 2024 04:11:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10227-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709179910.673696,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1aae8cc2a98e0e0b6e5d1e67619997aec1788ba1
+Expires: Thu, 29 Feb 2024 04:16:49 GMT
+Source-Age: 0
+
+]
+[2024-02-29 09:41:49,842 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-29 09:41:49,849 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-29 09:41:49,861 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-29 09:41:49,861 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-29 09:41:49,862 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-29 09:41:49,863 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-29 09:41:49,865 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-29 09:41:49,867 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 09:41:49,868 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 09:41:49,870 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 09:41:49,871 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 09:41:49,871 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-29 09:41:49,873 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-29 09:41:49,873 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-29 09:41:49,874 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-29 09:41:49,899 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-29 09:41:49,900 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-29 21:12:00,324 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-29 21:12:00,324 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-29 21:12:00,327 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:12:00,331 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:12:00,338 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:12:00,339 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:12:00,339 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-29 21:12:00,340 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-29 21:12:00,340 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-29 21:12:00,340 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-29 21:12:02,010 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C66C:140836:C43F7:F4F58:65E0A5C9
+Accept-Ranges: bytes
+Date: Thu, 29 Feb 2024 15:42:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10224-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709221322.278310,VS0,VE320
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0d0bdcd925397d2b4be44bb7bd376ac5362e7b1b
+Expires: Thu, 29 Feb 2024 15:47:02 GMT
+Source-Age: 0
+
+]
+[2024-02-29 21:12:02,010 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-29 21:12:02,014 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-29 21:12:02,029 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-29 21:12:02,030 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-29 21:12:02,030 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-29 21:12:02,030 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-29 21:12:02,031 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-29 21:12:02,032 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:12:02,032 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:12:02,034 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:12:02,034 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:12:02,034 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-29 21:12:02,035 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-29 21:12:02,035 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-29 21:12:02,036 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-29 21:12:02,054 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-29 21:12:02,054 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-29 21:12:02,054 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-02-29 21:17:40,836 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-29 21:17:40,836 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-29 21:17:40,838 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:17:40,839 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:17:40,840 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:17:40,841 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:17:40,841 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-29 21:17:40,841 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-29 21:17:40,842 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-29 21:17:40,842 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-29 21:17:42,550 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C66C:140836:C43F7:F4F58:65E0A5C9
+Accept-Ranges: bytes
+Date: Thu, 29 Feb 2024 15:47:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10244-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709221663.671884,VS0,VE289
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2c771673790eb40c7f219ad7b40c2e699b867ee2
+Expires: Thu, 29 Feb 2024 15:52:42 GMT
+Source-Age: 0
+
+]
+[2024-02-29 21:17:42,550 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-29 21:17:42,553 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-29 21:17:42,562 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-29 21:17:42,562 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-29 21:17:42,563 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-29 21:17:42,563 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-29 21:17:42,563 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-29 21:17:42,565 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:17:42,566 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:17:42,567 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:17:42,568 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:17:42,568 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-29 21:17:42,570 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-29 21:17:42,570 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-29 21:17:42,571 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-29 21:17:42,588 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-29 21:17:42,588 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-29 21:17:42,588 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-02-29 21:17:42,591 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:17:42,592 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:17:42,593 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:17:42,593 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:19:13,214 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-29 21:19:13,214 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-29 21:19:13,216 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:19:13,216 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:19:13,218 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:19:13,218 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:19:13,218 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-29 21:19:13,219 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-29 21:19:13,219 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-29 21:19:13,219 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-29 21:19:14,258 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C66C:140836:C43F7:F4F58:65E0A5C9
+Accept-Ranges: bytes
+Date: Thu, 29 Feb 2024 15:49:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10238-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709221755.919218,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2414b2994af81f4c46b5b1bb76f56cbedb13530b
+Expires: Thu, 29 Feb 2024 15:54:14 GMT
+Source-Age: 92
+
+]
+[2024-02-29 21:19:14,259 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-29 21:19:14,261 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-29 21:19:14,271 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-29 21:19:14,271 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-29 21:19:14,271 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-29 21:19:14,272 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-29 21:19:14,272 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-29 21:19:14,273 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:19:14,274 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:19:14,275 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:19:14,276 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:19:14,276 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-29 21:19:14,276 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-29 21:19:14,276 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-29 21:19:14,276 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-29 21:19:14,293 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-29 21:19:14,293 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-29 21:19:14,293 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-02-29 21:19:14,296 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:19:14,296 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:19:14,298 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:19:14,298 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:19:14,299 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-02-29 21:19:14,304 : INFO : data_transformation : train-test-split started...!]
+[2024-02-29 21:27:07,736 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-02-29 21:27:07,736 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-02-29 21:27:07,738 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:27:07,738 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:27:07,740 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:27:07,740 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:27:07,740 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-02-29 21:27:07,741 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-02-29 21:27:07,741 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-02-29 21:27:07,741 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-02-29 21:27:09,402 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C66C:140836:C43F7:F4F58:65E0A5C9
+Accept-Ranges: bytes
+Date: Thu, 29 Feb 2024 15:57:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10223-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709222230.621613,VS0,VE270
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8d037b6ea954e5bcf70d5ca764e88072661106b9
+Expires: Thu, 29 Feb 2024 16:02:09 GMT
+Source-Age: 0
+
+]
+[2024-02-29 21:27:09,403 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-02-29 21:27:09,405 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-02-29 21:27:09,417 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-02-29 21:27:09,417 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-02-29 21:27:09,417 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-02-29 21:27:09,418 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-02-29 21:27:09,418 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-02-29 21:27:09,419 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:27:09,420 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:27:09,421 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:27:09,422 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:27:09,423 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-02-29 21:27:09,423 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-02-29 21:27:09,424 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-02-29 21:27:09,424 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-02-29 21:27:09,439 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-02-29 21:27:09,440 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-02-29 21:27:09,440 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-02-29 21:27:09,442 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-02-29 21:27:09,443 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-02-29 21:27:09,444 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-02-29 21:27:09,445 : INFO : common : created directory at : artifacts...!]
+[2024-02-29 21:27:09,446 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-02-29 21:27:09,449 : INFO : data_transformation : train-test-split started...!]
+[2024-02-29 21:27:09,460 : INFO : data_transformation : train-test-split completed...!]
+[2024-02-29 21:27:09,460 : INFO : data_transformation : data-transformation started...!]
+[2024-02-29 21:27:09,463 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-02-29 21:27:09,464 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-02-29 21:27:09,496 : INFO : data_transformation : data-transformation completed and returned transformed data...!]

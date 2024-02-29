@@ -12,7 +12,8 @@ COLUMNS:
   Fare          :  float64
   Cabin         :  object 
   Embarked      :  object 
+  Survived      :   int64
 
 
 TARGET_COLUMN:
-  Survived      :  int64
+  name      :  Survived
