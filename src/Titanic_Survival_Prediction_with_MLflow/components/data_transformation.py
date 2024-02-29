@@ -11,6 +11,7 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.preprocessing import OneHotEncoder
 from Exception_file.exception import CustomException
 import sys
+import numpy as np
 
 
 
@@ -28,20 +29,23 @@ class DataTransformation:
 
             numeric_columns = ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
 
-            categoric_columns = ['Embarked']
+            categoric_columns = ['Embarked', 'Sex']
+            
 
 
             numeric_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='median')),
-                    ('scaler', RobustScaler())
+                    ('scaler', RobustScaler(with_centering=False))
                 ]
             )
 
             categoric_pipeline = Pipeline(
                 steps=[
                     ('imputer', SimpleImputer(strategy='most_frequent')),
-                    ('onehotencoding', OneHotEncoder())
+                    ('onehotencoding', OneHotEncoder(drop='first')),
+                    ('robustsc', RobustScaler(with_centering=False))
+            
                 ]
             )
 
@@ -74,29 +78,23 @@ class DataTransformation:
             logger.info(f'train-test-split completed...!')
             logger.info(f'data-transformation started...!')
 
-            train.drop(['PassengerId', 'Name', 'Ticket', 'Cabin'], axis = 1, inplace = True)
-            test.drop(['PassengerId', 'Name', 'Ticket', 'Cabin'], axis = 1, inplace = True)
+            train.drop(columns= ['PassengerId', 'Name', 'Ticket', 'Cabin'], axis = 1, inplace = True)
+            test.drop(columns = ['PassengerId', 'Name', 'Ticket', 'Cabin'], axis = 1, inplace = True)
 
-            target_column = 'Survived'
+            train_X = train.drop(columns = 'Survived', axis = 1)
+            train_Y = train[['Survived']]
 
-            train_X = train.drop(columns = [target_column], axis = 1)
-            train_Y = train[[target_column]]
-
-            test_X = test.drop(columns = [target_column], axis = 1)
-            test_Y = test[[target_column]]
+            test_X = test.drop(columns = 'Survived', axis = 1)
+            test_Y = test[['Survived']]
 
 
             preprocessor_obj = self.preprocessor_fun()
 
-            transformed_train_data = preprocessor_obj.fit_transform(train_X)
-            transformed_test_data = preprocessor_obj.transform(test_X)
+            train_X = preprocessor_obj.fit_transform(train_X)
+            test_X = preprocessor_obj.transform(test_X)
 
-
-            transformed_train_data = pd.DataFrame(transformed_train_data)
-            transformed_test_data = pd.DataFrame(transformed_test_data)
-
-            transformed_train_df = pd.concat([transformed_train_data, train_Y], axis = 1)
-            transformed_test_df = pd.concat([transformed_test_data, test_Y], axis = 1)
+            transformed_train_df = pd.DataFrame(np.c_[train_X, train_Y])
+            transformed_test_df = pd.DataFrame(np.c_[test_X, test_Y])
 
             transformed_train_df.to_csv(os.path.join(self.config.root_dir, 'transformed_train_df.csv'), index = False, header = True)
             transformed_test_df.to_csv(os.path.join(self.config.root_dir, 'transformed_test_df.csv'), index = False, header = True)
