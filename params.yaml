@@ -1,3 +1,5 @@
 
 
-key : val
+RandomForestClassifier:
+  n_estimators : 2
+  criterion : 'log_loss'

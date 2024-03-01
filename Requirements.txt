@@ -14,4 +14,5 @@ types-PyYAML
 Flask
 Flask-Cors
 pathlib
+dagshub
 -e .    ##-e . triggers the setup.py

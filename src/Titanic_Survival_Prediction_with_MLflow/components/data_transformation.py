@@ -96,6 +96,9 @@ class DataTransformation:
             transformed_train_df = pd.DataFrame(np.c_[train_X, train_Y])
             transformed_test_df = pd.DataFrame(np.c_[test_X, test_Y])
 
+            transformed_train_df.rename(columns={8 : 'Survived'}, inplace=True)
+            transformed_test_df.rename(columns={8 : 'Survived'}, inplace=True)
+
             transformed_train_df.to_csv(os.path.join(self.config.root_dir, 'transformed_train_df.csv'), index = False, header = True)
             transformed_test_df.to_csv(os.path.join(self.config.root_dir, 'transformed_test_df.csv'), index = False, header = True)
 

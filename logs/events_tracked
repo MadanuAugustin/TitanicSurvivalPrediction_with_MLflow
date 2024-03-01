@@ -1727,3 +1727,1159 @@ Source-Age: 0
 [2024-02-29 23:50:23,775 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
 [2024-02-29 23:50:23,776 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
 [2024-02-29 23:50:23,809 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 22:05:15,509 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 22:05:15,509 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 22:05:15,513 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:05:15,515 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:05:15,522 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:05:15,523 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:05:15,524 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 22:05:15,525 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 22:05:15,525 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 22:05:15,525 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 22:05:15,526 : INFO : data_ingestion : file already exists of size : The size of the file : artifacts\data_ingestion\Raw_data.zip is 22KB]
+[2024-03-01 22:05:15,526 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 22:05:15,526 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 22:05:15,539 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 22:05:15,540 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 22:05:15,540 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 22:05:15,541 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 22:05:15,541 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 22:05:15,543 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:05:15,544 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:05:15,546 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:05:15,546 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:05:15,546 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 22:05:15,547 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 22:05:15,547 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 22:05:15,547 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 22:05:15,575 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 22:05:15,575 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 22:05:15,575 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 22:05:15,585 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:05:15,587 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:05:15,589 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:05:15,589 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:05:15,590 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 22:05:15,594 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 22:05:15,616 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 22:05:15,617 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 22:05:15,625 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 22:05:15,626 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 22:05:15,661 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 22:05:15,662 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 22:05:15,664 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:05:15,665 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:05:15,667 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:05:15,668 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:05:15,668 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 22:07:58,475 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 22:07:58,476 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 22:07:58,480 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:07:58,481 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:07:58,483 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:07:58,484 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:07:58,484 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 22:07:58,485 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 22:07:58,485 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 22:07:58,486 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 22:09:07,603 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 22:09:07,604 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 22:09:07,608 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:09:07,610 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:09:07,612 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:09:07,613 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:09:07,613 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 22:09:07,614 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 22:09:07,615 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 22:09:07,615 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 22:09:17,431 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE36:136751:1AE833:2296BA:65E204B4
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 16:39:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10228-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709311157.047817,VS0,VE322
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f1a9c76ef83aea6f107f95a257597990b0fbf349
+Expires: Fri, 01 Mar 2024 16:44:17 GMT
+Source-Age: 0
+
+]
+[2024-03-01 22:09:17,432 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 22:09:17,437 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 22:09:17,449 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 22:09:17,450 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 22:09:17,451 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 22:09:17,451 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 22:09:17,451 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 22:09:17,455 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:09:17,456 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:09:17,458 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:09:17,459 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:09:17,459 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 22:09:17,460 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 22:09:17,460 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 22:09:17,460 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 22:09:17,486 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 22:09:17,487 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 22:09:17,487 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 22:09:17,496 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:09:17,497 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:09:17,501 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:09:17,504 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:09:17,505 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 22:09:17,509 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 22:09:17,527 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 22:09:17,528 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 22:09:17,537 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 22:09:17,537 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 22:09:17,575 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 22:09:17,576 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 22:09:17,586 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:09:17,587 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:09:17,589 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:09:17,590 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:09:17,591 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 22:16:57,066 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 22:16:57,067 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 22:16:57,070 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:16:57,071 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:16:57,072 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:16:57,073 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:16:57,073 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 22:16:57,074 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 22:16:57,074 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 22:16:57,074 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 22:16:59,100 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE36:136751:1AE833:2296BA:65E204B4
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 16:46:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10222-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709311619.739112,VS0,VE271
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7bb0f25507b7392f9d53688881aac49926c72a9a
+Expires: Fri, 01 Mar 2024 16:51:59 GMT
+Source-Age: 0
+
+]
+[2024-03-01 22:16:59,101 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 22:16:59,104 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 22:16:59,119 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 22:16:59,119 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 22:16:59,119 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 22:16:59,120 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 22:16:59,120 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 22:16:59,124 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:16:59,125 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:16:59,127 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:16:59,128 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:16:59,128 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 22:16:59,129 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 22:16:59,129 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 22:16:59,129 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 22:16:59,158 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 22:16:59,159 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 22:16:59,159 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 22:16:59,163 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:16:59,165 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:16:59,167 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:16:59,168 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:16:59,169 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 22:16:59,178 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 22:16:59,191 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 22:16:59,192 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 22:16:59,195 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 22:16:59,195 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 22:16:59,225 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 22:16:59,226 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 22:16:59,231 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:16:59,234 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:16:59,236 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:16:59,236 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:16:59,237 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 22:57:37,405 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 22:57:37,406 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 22:57:37,414 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:57:37,415 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:57:37,417 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:57:37,418 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:57:37,418 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 22:57:37,419 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 22:57:37,419 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 22:57:37,419 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 22:57:40,018 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2F46:3393CE:77EDD4:822006:65E2100A
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:27:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4731-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709314060.574235,VS0,VE339
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d94f274b16c0a17298ceae6dac2148edb2d11fcd
+Expires: Fri, 01 Mar 2024 17:32:39 GMT
+Source-Age: 0
+
+]
+[2024-03-01 22:57:40,018 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 22:57:40,022 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 22:57:40,032 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 22:57:40,032 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 22:57:40,033 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 22:57:40,033 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 22:57:40,034 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 22:57:40,036 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:57:40,037 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:57:40,039 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:57:40,039 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:57:40,040 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 22:57:40,040 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 22:57:40,041 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 22:57:40,041 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 22:57:40,066 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 22:57:40,066 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 22:57:40,067 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 22:57:40,075 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:57:40,076 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:57:40,078 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:57:40,078 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:57:40,080 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 22:57:40,090 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 22:57:40,108 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 22:57:40,109 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 22:57:40,119 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 22:57:40,119 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 22:57:40,161 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 22:57:40,162 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 22:57:40,168 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:57:40,169 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:57:40,171 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:57:40,171 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:57:40,172 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 22:57:40,207 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 22:57:40,212 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:57:40,214 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:57:40,216 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:57:40,216 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:57:40,217 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 22:57:42,724 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 22:57:42,726 : INFO : helpers : Repository initialized!]
+[2024-03-01 22:57:45,958 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 22:59:52,894 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 22:59:52,895 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 22:59:52,898 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:59:52,900 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:59:52,902 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:59:52,902 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:59:52,903 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 22:59:52,903 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 22:59:52,903 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 22:59:52,904 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 22:59:54,572 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE36:136751:1AE833:2296BA:65E204B4
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:29:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10234-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709314194.132875,VS0,VE269
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5389831471150b51da93751be3e4dcad8b573daa
+Expires: Fri, 01 Mar 2024 17:34:54 GMT
+Source-Age: 0
+
+]
+[2024-03-01 22:59:54,573 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 22:59:54,575 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 22:59:54,585 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 22:59:54,586 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 22:59:54,586 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 22:59:54,586 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 22:59:54,587 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 22:59:54,590 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:59:54,591 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:59:54,593 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:59:54,593 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:59:54,594 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 22:59:54,595 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 22:59:54,595 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 22:59:54,595 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 22:59:54,615 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 22:59:54,615 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 22:59:54,616 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 22:59:54,621 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:59:54,621 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:59:54,623 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:59:54,626 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:59:54,627 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 22:59:54,631 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 22:59:54,642 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 22:59:54,643 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 22:59:54,646 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 22:59:54,646 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 22:59:54,675 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 22:59:54,675 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 22:59:54,681 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:59:54,682 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:59:54,683 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:59:54,684 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:59:54,685 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 22:59:54,725 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 22:59:54,728 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 22:59:54,729 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 22:59:54,731 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 22:59:54,734 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 22:59:54,735 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 22:59:57,348 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 22:59:57,350 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:00:00,638 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:01:05,875 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:01:05,875 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:01:05,878 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:01:05,880 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:01:05,882 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:01:05,883 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:01:05,883 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:01:05,884 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:01:05,884 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:01:05,884 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:01:06,888 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE36:136751:1AE833:2296BA:65E204B4
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:31:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709314267.792768,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ee8d0bd660ec731c865cad8a06ef5ae0f93526eb
+Expires: Fri, 01 Mar 2024 17:36:06 GMT
+Source-Age: 72
+
+]
+[2024-03-01 23:01:06,890 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:01:06,894 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:01:06,905 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:01:06,906 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:01:06,906 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:01:06,906 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:01:06,907 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:01:06,911 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:01:06,913 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:01:06,916 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:01:06,916 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:01:06,917 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:01:06,917 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:01:06,918 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:01:06,918 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:01:06,943 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:01:06,944 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:01:06,944 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:01:06,950 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:01:06,951 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:01:06,953 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:01:06,954 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:01:06,955 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:01:06,960 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:01:06,971 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:01:06,971 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:01:06,975 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:01:06,975 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:01:07,018 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:01:07,018 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:01:07,025 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:01:07,027 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:01:07,029 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:01:07,029 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:01:07,030 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:01:07,075 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:01:07,079 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:01:07,080 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:01:07,082 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:01:07,082 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:01:07,083 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:01:09,326 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:01:09,328 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:01:12,198 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:02:26,508 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:02:26,508 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:02:26,512 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:02:26,513 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:02:26,515 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:02:26,515 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:02:26,515 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:02:26,516 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:02:26,516 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:02:26,516 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:02:27,740 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2F46:3393CE:77EDD4:822006:65E2100A
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:32:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4728-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709314348.655635,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 241522a1179eb77fe71d04167e7e7e2d72a8447f
+Expires: Fri, 01 Mar 2024 17:37:27 GMT
+Source-Age: 288
+
+]
+[2024-03-01 23:02:27,741 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:02:27,743 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:02:27,751 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:02:27,751 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:02:27,752 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:02:27,752 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:02:27,752 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:02:27,755 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:02:27,755 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:02:27,757 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:02:27,757 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:02:27,757 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:02:27,758 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:02:27,758 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:02:27,758 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:02:27,774 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:02:27,775 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:02:27,775 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:02:27,778 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:02:27,779 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:02:27,780 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:02:27,781 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:02:27,788 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:02:27,792 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:02:27,800 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:02:27,801 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:02:27,804 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:02:27,804 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:02:27,829 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:02:27,829 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:02:27,833 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:02:27,834 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:02:27,835 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:02:27,836 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:02:27,836 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:02:27,865 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:02:27,868 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:02:27,869 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:02:27,870 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:02:27,871 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:02:27,872 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:02:29,742 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:02:29,744 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:02:33,193 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:04:14,638 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:04:14,639 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:04:14,642 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:04:14,643 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:04:14,645 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:04:14,645 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:04:14,645 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:04:14,646 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:04:14,646 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:04:14,646 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:04:15,527 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE36:136751:1AE833:2296BA:65E204B4
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:34:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10251-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709314455.440234,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d815e108d9885a4705771154ad807ffb5a350789
+Expires: Fri, 01 Mar 2024 17:39:15 GMT
+Source-Age: 261
+
+]
+[2024-03-01 23:04:15,528 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:04:15,530 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:04:15,538 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:04:15,539 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:04:15,539 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:04:15,539 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:04:15,539 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:04:15,541 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:04:15,542 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:04:15,544 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:04:15,544 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:04:15,544 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:04:15,545 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:04:15,545 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:04:15,545 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:04:15,561 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:04:15,562 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:04:15,563 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:04:15,568 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:04:15,569 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:04:15,571 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:04:15,571 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:04:15,572 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:04:15,576 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:04:15,588 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:04:15,588 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:04:15,591 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:04:15,591 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:04:15,621 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:04:15,622 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:04:15,629 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:04:15,630 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:04:15,632 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:04:15,632 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:04:15,633 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:04:15,665 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:04:15,668 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:04:15,669 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:04:15,672 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:04:15,674 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:04:15,674 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:04:17,789 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:04:17,790 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:04:21,100 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:05:40,463 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:05:40,463 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:05:40,466 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:05:40,471 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:05:40,472 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:05:40,473 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:05:40,473 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:05:40,474 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:05:40,474 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:05:40,474 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:05:42,489 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE36:136751:1AE833:2296BA:65E204B4
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:35:42 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709314542.120177,VS0,VE267
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 126b4269bdb0b50ecf66647070c847ce6e02a8af
+Expires: Fri, 01 Mar 2024 17:40:42 GMT
+Source-Age: 0
+
+]
+[2024-03-01 23:05:42,490 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:05:42,492 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:05:42,500 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:05:42,500 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:05:42,501 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:05:42,501 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:05:42,501 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:05:42,504 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:05:42,504 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:05:42,506 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:05:42,506 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:05:42,506 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:05:42,507 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:05:42,507 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:05:42,507 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:05:42,522 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:05:42,523 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:05:42,523 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:05:42,526 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:05:42,527 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:05:42,528 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:05:42,529 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:05:42,530 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:05:42,536 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:05:42,544 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:05:42,544 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:05:42,547 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:05:42,553 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:05:42,577 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:05:42,577 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:05:42,580 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:05:42,585 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:05:42,587 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:05:42,587 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:05:42,588 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:05:42,627 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:05:42,632 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:05:42,633 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:05:42,635 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:05:42,635 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:05:42,636 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:05:45,333 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:05:45,335 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:05:49,233 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:08:42,372 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:08:42,372 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:08:42,375 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:08:42,376 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:08:42,378 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:08:42,378 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:08:42,379 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:08:42,379 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:08:42,379 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:08:42,380 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:10:17,027 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:10:17,027 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:10:17,030 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:10:17,031 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:10:17,032 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:10:17,032 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:10:17,033 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:10:17,033 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:10:17,033 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:10:17,033 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:11:42,054 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:11:42,055 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:11:42,057 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:11:42,058 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:11:42,060 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:11:42,060 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:11:42,060 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:11:42,061 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:11:42,061 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:11:42,061 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:11:43,669 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 299C:1CACA3:C2501:F5B77:65E21356
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:41:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100032-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1709314903.200426,VS0,VE278
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e239cf35de09af864a8ea5074e48a668b4449302
+Expires: Fri, 01 Mar 2024 17:46:43 GMT
+Source-Age: 0
+
+]
+[2024-03-01 23:11:43,670 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:11:43,673 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:11:43,683 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:11:43,683 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:11:43,684 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:11:43,684 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:11:43,684 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:11:43,686 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:11:43,687 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:11:43,689 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:11:43,689 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:11:43,689 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:11:43,690 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:11:43,690 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:11:43,691 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:11:43,709 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:11:43,710 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:11:43,710 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:11:43,713 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:11:43,714 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:11:43,716 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:11:43,716 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:11:43,717 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:11:43,720 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:11:43,730 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:11:43,733 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:11:43,735 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:11:43,735 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:11:43,756 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:11:43,757 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:11:43,761 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:11:43,763 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:11:43,765 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:11:43,765 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:11:43,766 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:11:43,794 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:11:43,796 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:11:43,797 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:11:43,799 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:11:43,799 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:11:43,800 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:11:45,421 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:11:45,422 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:11:47,823 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:13:34,472 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:13:34,472 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:13:34,475 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:13:34,476 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:13:34,478 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:13:34,478 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:13:34,478 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:13:34,479 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:13:34,479 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:13:34,479 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:13:35,231 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 299C:1CACA3:C2501:F5B77:65E21356
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:43:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100035-HYD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1709315015.131822,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5fac28e7f64e82d27e15ca6c446a53910a33cbd9
+Expires: Fri, 01 Mar 2024 17:48:35 GMT
+Source-Age: 112
+
+]
+[2024-03-01 23:13:35,231 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:13:35,231 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:13:35,243 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:13:35,246 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:13:35,246 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:13:35,246 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:13:35,246 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:13:35,248 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:13:35,249 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:13:35,251 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:13:35,251 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:13:35,251 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:13:35,252 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:13:35,252 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:13:35,253 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:13:35,270 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:13:35,270 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:13:35,271 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:13:35,274 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:13:35,275 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:13:35,276 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:13:35,277 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:13:35,278 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:13:35,281 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:13:35,289 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:13:35,293 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:13:35,296 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:13:35,296 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:13:35,320 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:13:35,320 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:13:35,323 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:13:35,327 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:13:35,329 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:13:35,329 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:13:35,330 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:13:35,362 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:13:35,365 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:13:35,365 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:13:35,367 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:13:35,367 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:13:35,368 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:13:36,952 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:13:36,954 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:13:39,685 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:14:50,006 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:14:50,006 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:14:50,009 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:14:50,010 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:14:50,012 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:14:50,012 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:14:50,012 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:14:50,013 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:14:50,013 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:14:50,013 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:14:51,257 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 299C:1CACA3:C2501:F5B77:65E21356
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:44:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: HIT
+X-Cache-Hits: 2
+X-Timer: S1709315091.200162,VS0,VE0
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2bc3dfc26ef25790eecffe988422854c2f197586
+Expires: Fri, 01 Mar 2024 17:49:51 GMT
+Source-Age: 188
+
+]
+[2024-03-01 23:14:51,257 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:14:51,259 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:14:51,267 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:14:51,267 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:14:51,268 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:14:51,268 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:14:51,268 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:14:51,270 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:14:51,271 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:14:51,272 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:14:51,273 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:14:51,273 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:14:51,273 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:14:51,274 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:14:51,274 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:14:51,290 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:14:51,290 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:14:51,291 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:14:51,294 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:14:51,295 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:14:51,296 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:14:51,296 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:14:51,299 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:14:51,304 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:14:51,313 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:14:51,318 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:14:51,321 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:14:51,321 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:14:51,345 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:14:51,346 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:14:51,350 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:14:51,351 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:14:51,352 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:14:51,353 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:14:51,354 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:14:51,397 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:14:51,399 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:14:51,401 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:14:51,403 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:14:51,403 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:14:51,404 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:14:53,279 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:14:53,280 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:14:56,175 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:16:11,892 : INFO : main : --------------Data_Ingestion_Stage-started--------------]
+[2024-03-01 23:16:11,892 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function started...!]
+[2024-03-01 23:16:11,895 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:16:11,896 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:16:11,897 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:16:11,898 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:16:11,898 : INFO : configuration : ConfigurationManager get_data_ingestion_config function started...!]
+[2024-03-01 23:16:11,898 : INFO : common : created directory at : artifacts//data_ingestion...!]
+[2024-03-01 23:16:11,899 : INFO : configuration : ConfigurationManager get_data_ingestion_config function completed...!]
+[2024-03-01 23:16:11,899 : INFO : data_ingestion : DataIngestion download_file function started...!]
+[2024-03-01 23:16:12,580 : INFO : data_ingestion : artifacts//data_ingestion//Raw_data.zip has been downloaded with the following info : 
+Connection: close
+Content-Length: 22564
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2ea9dfe47a2052f4859e54a8c0e465f34ad3acb0e14c10c1d879422276b13647"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 299C:1CACA3:C2501:F5B77:65E21356
+Accept-Ranges: bytes
+Date: Fri, 01 Mar 2024 17:46:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: HIT
+X-Cache-Hits: 3
+X-Timer: S1709315173.522952,VS0,VE0
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f41fd9ff2da8e99c694c4f8eca118b49aea93a10
+Expires: Fri, 01 Mar 2024 17:51:12 GMT
+Source-Age: 269
+
+]
+[2024-03-01 23:16:12,580 : INFO : data_ingestion : DataIngestion download_file function completed...!]
+[2024-03-01 23:16:12,583 : INFO : data_ingestion : DataIngestion extract_zip_file started...!]
+[2024-03-01 23:16:12,592 : INFO : data_ingestion : DataIngestion extract_zip_file completed...!]
+[2024-03-01 23:16:12,593 : INFO : stage_01_dataIngestion : DataIngestionTrainingPipeline main function completed...!]
+[2024-03-01 23:16:12,593 : INFO : main : --------------Data_Ingestion_Stage-completed-----------------]
+[2024-03-01 23:16:12,593 : INFO : main : ---------------Data_Validation_Stage-started---------------]
+[2024-03-01 23:16:12,593 : INFO : stage_02_dataValidation : DatValidationTrainingPipeline main function started...!]
+[2024-03-01 23:16:12,597 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:16:12,598 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:16:12,600 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:16:12,600 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:16:12,600 : INFO : configuration : ConfigurationManager get_data_validation_config function started...!]
+[2024-03-01 23:16:12,601 : INFO : common : created directory at : artifacts//data_validation...!]
+[2024-03-01 23:16:12,601 : INFO : configuration : ConfigurationManager get_data_validation_config function completed...!]
+[2024-03-01 23:16:12,601 : INFO : data_validation : DataValidation validate_all_columns function started...!]
+[2024-03-01 23:16:12,622 : INFO : stage_02_dataValidation : DataValidationTrainingPipeline main function completed...!]
+[2024-03-01 23:16:12,622 : INFO : main : -------------------Data_Validation_Stage-completed-------------------]
+[2024-03-01 23:16:12,623 : INFO : main : --------------------------Data_Transformatin_Stage started---------------------]
+[2024-03-01 23:16:12,626 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:16:12,627 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:16:12,628 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:16:12,629 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:16:12,630 : INFO : common : created directory at : artifacts//data_transformation...!]
+[2024-03-01 23:16:12,633 : INFO : data_transformation : train-test-split started...!]
+[2024-03-01 23:16:12,643 : INFO : data_transformation : train-test-split completed...!]
+[2024-03-01 23:16:12,643 : INFO : data_transformation : data-transformation started...!]
+[2024-03-01 23:16:12,646 : INFO : data_transformation : numeric and categoric pipelines construction started...!]
+[2024-03-01 23:16:12,646 : INFO : data_transformation : numeric and categoric pipelines construction completed and returned preprocessor...!]
+[2024-03-01 23:16:12,673 : INFO : data_transformation : data-transformation completed and returned transformed data...!]
+[2024-03-01 23:16:12,673 : INFO : main : ------------------------Model_Training_Stage started------------------]
+[2024-03-01 23:16:12,678 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:16:12,679 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:16:12,680 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:16:12,681 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:16:12,682 : INFO : common : created directory at : artifacts//model_trainer...!]
+[2024-03-01 23:16:12,701 : INFO : main : -----------------------Model_Evaluation_Stage started----------------------]
+[2024-03-01 23:16:12,704 : INFO : common : yaml file : config\config.yaml loaded successfully...!]
+[2024-03-01 23:16:12,705 : INFO : common : yaml file : params.yaml loaded successfully...!]
+[2024-03-01 23:16:12,706 : INFO : common : yaml file : schema.yaml loaded successfully...!]
+[2024-03-01 23:16:12,707 : INFO : common : created directory at : artifacts...!]
+[2024-03-01 23:16:12,707 : INFO : common : created directory at : artifacts//model_evaluation...!]
+[2024-03-01 23:16:14,477 : INFO : helpers : Initialized MLflow to track repo "augustin7766/TitanicSurvivalPrediction_with_MLflow"]
+[2024-03-01 23:16:14,478 : INFO : helpers : Repository initialized!]
+[2024-03-01 23:16:17,127 : INFO : common : json file saved at artifacts\model_evaluation\metrics.json...!]
+[2024-03-01 23:47:41,788 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-01 23:47:41,789 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-01 23:47:41,791 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:47:42,321 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:47:42,330 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:47:50,419 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:47:50] "GET /predict HTTP/1.1" 200 -]
+[2024-03-01 23:47:51,385 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:47:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-03-01 23:51:38,335 : INFO : _internal :  * Detected change in 'c:\\users\\ajaym\\desktop\\titanic\\application.py', reloading]
+[2024-03-01 23:51:38,488 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:51:39,088 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:51:39,093 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:51:46,739 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-01 23:51:46,739 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-01 23:51:46,741 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:51:47,179 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:51:47,184 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:51:58,455 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:51:58] "GET /predict HTTP/1.1" 200 -]
+[2024-03-01 23:52:17,087 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:52:17] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-01 23:52:17,171 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:52:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-03-01 23:52:17,191 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:52:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-03-01 23:52:17,244 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:52:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-01 23:52:17,254 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:52:17] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-01 23:53:02,617 : INFO : _internal :  * Detected change in 'C:\\Users\\ajaym\\Desktop\\Titanic\\application.py', reloading]
+[2024-03-01 23:53:02,683 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:53:35,657 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-01 23:53:35,657 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-01 23:53:35,659 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:53:36,117 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:53:36,122 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:53:40,371 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:53:40] "GET /predict HTTP/1.1" 200 -]
+[2024-03-01 23:53:57,139 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:53:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-01 23:53:57,224 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:53:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-03-01 23:53:57,224 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:53:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-03-01 23:53:57,233 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:53:57] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-01 23:54:12,056 : INFO : _internal :  * Detected change in 'c:\\users\\ajaym\\desktop\\titanic\\application.py', reloading]
+[2024-03-01 23:54:12,107 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:54:12,612 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:54:12,615 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:54:19,823 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-01 23:54:19,823 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-01 23:54:19,825 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:54:20,280 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:54:20,285 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:54:24,397 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:54:24] "GET /predict HTTP/1.1" 200 -]
+[2024-03-01 23:54:45,142 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:54:45] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-01 23:54:45,228 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:54:45] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-03-01 23:54:45,228 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:54:45] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-03-01 23:54:45,246 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:54:45] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-01 23:57:19,153 : INFO : _internal :  * Detected change in 'c:\\users\\ajaym\\desktop\\titanic\\application.py', reloading]
+[2024-03-01 23:57:19,317 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:57:19,982 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:57:19,988 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:57:31,001 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-01 23:57:31,001 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-01 23:57:31,003 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:57:31,613 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:57:31,625 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:57:35,852 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:57:35] "GET /predict HTTP/1.1" 200 -]
+[2024-03-01 23:57:54,173 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:57:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-01 23:57:54,270 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:57:54] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-03-01 23:57:54,272 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:57:54] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-03-01 23:57:54,287 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:57:54] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-01 23:58:41,879 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-01 23:58:41,879 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-01 23:58:41,880 : INFO : _internal :  * Restarting with stat]
+[2024-03-01 23:58:42,311 : WARNING : _internal :  * Debugger is active!]
+[2024-03-01 23:58:42,317 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-01 23:58:47,103 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:58:47] "GET /predict HTTP/1.1" 200 -]
+[2024-03-01 23:59:03,169 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:59:03] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-01 23:59:03,261 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:59:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-03-01 23:59:03,262 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:59:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-03-01 23:59:03,318 : INFO : _internal : 127.0.0.1 - - [01/Mar/2024 23:59:03] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-02 00:01:08,231 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:01:08] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:02:06,376 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:02:06] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:03:40,285 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:03:40] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:04:51,155 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:04:51] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:04:53,269 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:04:53] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:04:54,158 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:04:54] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:04:54,321 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:04:54] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:04:54,539 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:04:54] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:05:12,084 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:05:12] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:05:38,275 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:05:38] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:05:39,403 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:05:39] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:06:24,655 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:06:24] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:06:44,235 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:06:44] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:07:28,396 : INFO : _internal :  * Detected change in 'C:\\Users\\ajaym\\Desktop\\Titanic\\application.py', reloading]
+[2024-03-02 00:07:28,619 : INFO : _internal :  * Restarting with stat]
+[2024-03-02 00:07:53,444 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.218.227:5000]
+[2024-03-02 00:07:53,445 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2024-03-02 00:07:53,446 : INFO : _internal :  * Restarting with stat]
+[2024-03-02 00:07:53,861 : WARNING : _internal :  * Debugger is active!]
+[2024-03-02 00:07:53,866 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-02 00:08:01,274 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:08:01] "GET /predict HTTP/1.1" 200 -]
+[2024-03-02 00:08:19,752 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:08:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-03-02 00:08:19,853 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:08:19] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -]
+[2024-03-02 00:08:19,854 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:08:19] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -]
+[2024-03-02 00:08:19,869 : INFO : _internal : 127.0.0.1 - - [02/Mar/2024 00:08:19] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -]
+[2024-03-02 00:09:11,183 : INFO : _internal :  * Detected change in 'c:\\users\\ajaym\\desktop\\titanic\\application.py', reloading]
+[2024-03-02 00:09:11,343 : INFO : _internal :  * Restarting with stat]
+[2024-03-02 00:09:11,816 : WARNING : _internal :  * Debugger is active!]
+[2024-03-02 00:09:11,822 : INFO : _internal :  * Debugger PIN: 598-863-858]
+[2024-03-02 00:09:14,820 : INFO : _internal :  * Detected change in 'c:\\users\\ajaym\\desktop\\titanic\\application.py', reloading]
+[2024-03-02 00:09:14,902 : INFO : _internal :  * Restarting with stat]
+[2024-03-02 00:09:15,365 : WARNING : _internal :  * Debugger is active!]
+[2024-03-02 00:09:15,372 : INFO : _internal :  * Debugger PIN: 598-863-858]
